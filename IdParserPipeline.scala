@@ -1,7 +1,7 @@
-import com.tim.thesisfeatureIdParser.FeatureIdParserConfig
-import com.tim.thesisfeatureIdParser.shared.LazyLogger
-import com.tim.thesisfeatureIdParser.utils.HashingUtils._
-import com.tim.thesisfeatureIdParser.utils.CoordinateUtils._
+import com.tim.thesis.featureIdParser.FeatureIdParserConfig
+import com.tim.thesis.featureIdParser.shared.LazyLogger
+import com.tim.thesis.featureIdParser.utils.HashingUtils._
+import com.tim.thesis.featureIdParser.utils.CoordinateUtils._
 import com.google.inject.{ImplementedBy, Singleton}
 import com.acervera.osm4scala.spark.OsmSqlEntity
 import org.apache.spark.SparkContext
